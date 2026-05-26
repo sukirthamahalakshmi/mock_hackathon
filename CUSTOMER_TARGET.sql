@@ -1,0 +1,8 @@
+SELECT table_name
+FROM user_tables;
+
+CREATE TABLE Customer_Target AS
+SELECT * FROM HR.CUSTOMER
+WHERE 1=2;
+
+SELECT * FROM CUSTOMER_TARGET;
